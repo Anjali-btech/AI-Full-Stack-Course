@@ -44,3 +44,4 @@ results = collection.query(query_embeddings=q_embedding, n_results=1)
 retrieved = results["documents"][0]
 
 print(retrieved)
+

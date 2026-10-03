@@ -96,8 +96,7 @@ with st.sidebar:
     st.metric("Total chunks in memory" , collection.count())
     st.caption("Last searched query")
     st.write(st.session_state.last_query)
-    
+
     st.divider()
     for q in st.session_state.recent:
         st.write(f". {q}")
-    
